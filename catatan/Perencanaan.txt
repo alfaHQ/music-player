@@ -1,0 +1,122 @@
+* PERENCANAAN
+
+No 1
+
+Tahap :
+Requipment Analysist
+
+Person :
+- System Analyst
+
+Yang dilakukan :
+- mencari tahu fitur umum yang terdapat pada musik player
+
+Waktu :
+
+-----------------------------------------------------------------
+
+No 2
+
+Tahap :
+System Design
+
+Person :
+- System Analyst
+- Frontend Designer
+- Backend Developer
+
+Yang dilakukan :
+- Merancang sistem aplikasi
+
+Waktu : 
+
+-----------------------------------------------------------------
+
+No 3
+
+Tahap :
+Implementation
+
+Person :
+- Frontend Designer
+- Backend Developer
+
+Yang dilakukan :
+- Menerapkan tampilan dan logika sistem ke dalam aplikasi
+
+Waktu : 
+
+-----------------------------------------------------------------
+
+No 4
+
+Tahap :
+Testing
+
+Person :
+- Quality Assurance
+
+Yang dilakukan :
+- Mencoba fitur aplikasi dan memeriksa apakah terdapat bug
+
+Waktu : 
+
+-----------------------------------------------------------------
+
+No 5
+
+Tahap :
+Deployment
+
+Person :
+- Quality Assurance
+
+Yang dilakukan :
+- Melakukan testing pada aplikasi
+
+Waktu : 
+
+-----------------------------------------------------------------
+
+No 6
+
+Tahap :
+Maintenance
+
+Person :
+- Backend Developer
+
+Yang dilakukan :
+- Memperbaiki aplikasi ketika terdapat bug atau fitur
+  yang tidak semestinya
+
+Waktu : 
+
+
+
+
+
+Project Manager : 
+- menentukan waktu pengerjaan project
+- menentukan budget agar efektif
+
+System Analyst :
+- menganalisa garis besar sistem aplikasi dan sistem bisnis
+
+UI/UX Desginer :
+- membuat gambaran kasar tampilan aplikasi (layout)
+- membuat pengguna betah dengan tampilan aplikasi
+
+Technical Writer :
+- Membuat dokumentasi cara kerja aplikasi ( Help And Guide )
+
+Quality Assurance :
+- melakukan test pada aplikasi serta melaporkan bug yang ada
+
+Frontend Designer :
+- Membuat tampilan kasar menjadi tampilan aplikasi
+
+Backend Developer :
+- Mencoba menerapkan sistem bisnis dari system analyst serta 
+  membuat sistem database 
+- Membuat API

@@ -1,0 +1,70 @@
+*DIAGRAM USECASE dan ACTIVITY
+
+- User Membuka file aplikasi (index.html) -> user
+- Sistem menampilkan halaman HTML aplikasi beserta style dan script yang digunakan -> sistem
+- Sistem menampilkan semua daftar musik yang tersedia dari attribute mp3.music_list
+- User memilih salah satu musik yang tersedia
+- Sistem menjalankan fungsi play() dari object Song
+- User dapat menggunakan fitur Mp3 yang lebih kompleks dengan klik pada musik yang dipilih sebelumnya
+  atau pada bagian mini play group ( semua bagian kecuali tombol play )
+- Sistem menampilkan menu Mp3
+- User dapat menggunakan fitur yang lebih kompleks seperti play, pause, previous skip, next skip, dan loop.
+- User dapat kembali ke bagian menu daftar musik dengan klik tombol kembali di pojok kiri atas.
+
+*DIAGRAM CLASS
+ 
+Class Body
+
+Attribute :
+- Switch ( HTML Element )
+
+Method :
+- darkModeToggle()
+
+------------------------------------
+
+Class Menu
+
+Attribute :
+- music_list_wrapper ( HTML Element )
+- music_list_content ( HTML Element )
+- music_name ( HTML Element )
+- play_button ( HTML Element )
+- mini_play_group ( HTML Element )
+
+Method:
+- play()
+- pause()
+
+------------------------------------
+
+Class Mp3
+
+Attribute :
+- isPlaying ( boolean )
+- music_index ( number )
+- currentTime ( number )
+- durationTime ( number )
+- rotate_value ( number )
+- cover ( HTML Element )
+- play_buttons ( object )
+- play_button ( HTML Element )
+- slider ( HTML Element )
+- duration ( HTML Element )
+- current ( HTML Element )
+- prev_button ( HTML Element )
+- next_button ( HTML Element )
+- repeat_button ( HTML Element )
+- heart ( HTML Element )
+- back_button ( HTML Element )
+- music_name ( HTML Element )
+- artis_name ( HTML Element )
+- music_list ( object )
+
+Method :
+- getDuration()
+- setDuration()
+- getArtistName()
+- play()
+- pause()
+- getCurrentRotation()

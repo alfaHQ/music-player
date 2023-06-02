@@ -1,0 +1,46 @@
+No 1
+Nama bagian : Body
+
+Operasi yang diharapkan :
+- User dapat mengubah tampilan ke mode gelap dan kembali ke mode terang
+
+Operasi yang terjadi :
+- Fitur berjalan dengan baik
+
+No 2
+Nama Bagian : Menu Daftar Musik
+
+Operasi yang diharapkan :
+- User dapat memilih salah satu musik dari daftar dan musik akan diputar
+- User dapat pindah ke bagian Menu Mp3 yang lebih kompleks dengan klik kembali
+  pada musik yang dipilih sebelumnya dari daftar
+- User juga dapat pindah ke bagian Menu Mp3 kompleks dengan klik pada bagian
+  mini play (kecuali pada tombol play/pause)
+- User dapat memutar atau menjeda dengan klik pada tombol play/pause yang 
+  terdapat pada bagian mini play
+
+Operasi yang terjadi :
+- Fitur berjalan dengan baik
+- Fitur berjalan dengan baik
+- Fitur berjalan dengan baik
+- Fitur berjalan dengan baik
+
+No 3
+Nama Bagian : Menu Mp3
+
+Operasi yang diharapkan :
+- User dapat memutar atau menjeda musik dengan klik tombol play/pause
+- User dapat skip musik ke bagian selanjutnya dengan klik tombol next skip
+- User dapat skip musik ke bagian sebelumnya dengan klik tombol previous skip
+- User dapat menggeser slider durasi dan akan mengubah durasi saat musik diputar
+- User dapat mengaktifkan atau mematikan fitur ulang musik) dengan klik tombol 
+  loop
+- User dapat kembali ke menu sebelumnya (Menu Daftar Musik) dengan tombol back
+
+Operasi yang terjadi :
+- Fitur berjalan dengan baik
+- Fitur berjalan dengan baik
+- Fitur berjalan dengan baik
+- Fitur berjalan dengan baik
+- Fitur berjalan dengan baik
+- Fitur berjalan dengan baik

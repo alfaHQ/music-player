@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Music Player Terindah</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <style>
+
+        @font-face {
+            font-family: "Montserrat";
+            src: url(assets/font/montserrat-medium.ttf);
+        }
+
+        body {
+            font-family: "Montserrat";
+            opacity: 0;
+            animation: appear 1.5s forwards;
+            transform: translateX(-50%);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        i {
+            padding: 5px;
+            margin: 5px;
+            font-size: 15px;
+            background: #EFEEEE;
+            color: royalblue;
+        }
+
+        p {
+            width: 50%;
+        }
+
+        @keyFrames appear {
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Dokumentasi resmi</h1>
+    <h2>Fitur apa saja si yang terdapat pada aplikasi?</h2>
+
+    <h3>Bagian Menu Halaman</h3>
+    <ul>
+        <li>
+            Untuk mengubah tampilan ke mode gelap ataupun kembali ke mode terang klik pada bagian<i class="fa fa-toggle-off"></i>
+        </li>
+    </ul>
+
+    <h3>Bagian Menu Daftar Musik</h3>
+    <ul>
+        <li>
+            Memilih musik dengan klik judul musik dari daftar yang tersedia untuk diputar dan klik sekali lagi pada judul musik untuk masuk ke bagian mp3 yang lebih kompleks ( Menu Mp3 )
+        </li>
+        <li>
+            Masuk ke bagian mp3 yang lebih kompleks dengan klik pada bagian mini play (kecuali tombol play/pause)
+        </li>
+        <li>
+            Untuk memutar musik klik pada bagian yang ingin dipilih atau klik pada <i class="fa fa-play"></i> untuk play dan <i class="fa fa-pause"></i> untuk pause pada musik yang telah dipilih,
+        </li>
+    </ul>
+
+    <h3>Bagian Menu Mp3</h3>
+    <ul>
+        <li>
+            Play musik dengan klik <i class="fa fa-play"></i> dan pause dengan klik <i class="fa fa-pause"></i>
+        </li>
+        <li>
+            Skip musik sebelumnya dengan klik <i class="fa fa-backward-step"></i>
+        </li>
+        <li>
+            Skip musik selanjutnya dengan klik <i class="fa fa-forward-step"></i>
+        </li>
+        <li>
+            Ulangi musik ketika selesai dengan klik <i><img src="assets/img/repeat.png" width="15"></i>
+        </li>
+        <li>
+            Dan terakhir tombol untuk kembali ke bagian menu daftar musik <i class="fa fa-arrow-left"></i>
+        </li>
+    </ul>
+    
+</body>
+</html>
